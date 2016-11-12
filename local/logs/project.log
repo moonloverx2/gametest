@@ -1,52 +1,54 @@
-2016-11-12T08:05:56.004Z - normal: Load ~/.CocosCreator/settings.json
-2016-11-12T08:05:56.012Z - normal: checking language setting...
-2016-11-12T08:05:56.013Z - normal: Language: zh
-2016-11-12T08:05:57.206Z - success: protocol editor-framework registered
-2016-11-12T08:05:57.206Z - success: protocol app registered
-2016-11-12T08:05:57.207Z - success: protocol packages registered
-2016-11-12T08:05:57.207Z - success: protocol theme registered
-2016-11-12T08:05:57.207Z - success: protocol unpack registerred
-2016-11-12T08:05:57.778Z - normal: connected!
-2016-11-12T08:05:57.789Z - normal: Check project E:\Cocos\gametest
-2016-11-12T08:05:57.801Z - normal: Initializing Cocos Creator Editor
-2016-11-12T08:05:58.929Z - normal: Initializing Cocos2d
-2016-11-12T08:05:59.170Z - normal: Initializing Asset Database
-2016-11-12T08:05:59.189Z - success: protocol uuid registerred
-2016-11-12T08:05:59.190Z - success: protocol db registerred
-2016-11-12T08:05:59.190Z - success: protocol thumbnail registerred
-2016-11-12T08:05:59.190Z - normal: Loading editor/builtin packages
-2016-11-12T08:05:59.347Z - success: assets loaded
-2016-11-12T08:05:59.350Z - success: builder loaded
-2016-11-12T08:05:59.358Z - success: hierarchy loaded
-2016-11-12T08:05:59.363Z - success: inspector loaded
-2016-11-12T08:05:59.365Z - success: keystore loaded
-2016-11-12T08:05:59.368Z - success: node-library loaded
-2016-11-12T08:05:59.375Z - success: preferences loaded
-2016-11-12T08:05:59.409Z - success: project-importer loaded
-2016-11-12T08:05:59.413Z - success: project-settings loaded
-2016-11-12T08:05:59.417Z - success: ui-kit loaded
-2016-11-12T08:05:59.421Z - success: ui-grid loaded
-2016-11-12T08:05:59.426Z - success: scene loaded
-2016-11-12T08:05:59.429Z - success: sprite-editor loaded
-2016-11-12T08:05:59.438Z - success: timeline loaded
-2016-11-12T08:05:59.438Z - normal: Loading builtin packages
-2016-11-12T08:05:59.443Z - success: asset-db-debugger loaded
-2016-11-12T08:05:59.445Z - success: code-editor loaded
-2016-11-12T08:05:59.446Z - success: color-picker loaded
-2016-11-12T08:05:59.450Z - success: console loaded
-2016-11-12T08:05:59.456Z - success: package-manager loaded
-2016-11-12T08:05:59.461Z - success: tester loaded
-2016-11-12T08:05:59.463Z - success: ui-kit-preview-extra loaded
-2016-11-12T08:05:59.472Z - success: ui-kit-preview loaded
-2016-11-12T08:05:59.474Z - success: ui-tree loaded
-2016-11-12T08:05:59.545Z - normal: Initializing project E:\Cocos\gametest
-2016-11-12T08:05:59.549Z - normal: Loading packages
-2016-11-12T08:05:59.556Z - normal: Watching packages
-2016-11-12T08:05:59.578Z - normal: Run Application
-2016-11-12T08:06:00.444Z - success: preview server running at http://localhost:7456
-2016-11-12T08:06:05.574Z - normal: 1.3.1
-2016-11-12T08:10:06.477Z - normal: Compiled successfully
-2016-11-12T08:10:10.184Z - normal: Compiled successfully
-2016-11-12T08:10:23.173Z - normal: Compiled successfully
-2016-11-12T08:10:36.688Z - normal: Compiled successfully
-2016-11-12T08:10:44.147Z - normal: Compiled successfully
+2016-11-12T09:33:32.128Z - normal: Load ~/.CocosCreator/settings.json
+2016-11-12T09:33:32.137Z - normal: checking language setting...
+2016-11-12T09:33:32.137Z - normal: Language: zh
+2016-11-12T09:33:33.336Z - success: protocol editor-framework registered
+2016-11-12T09:33:33.336Z - success: protocol app registered
+2016-11-12T09:33:33.336Z - success: protocol packages registered
+2016-11-12T09:33:33.337Z - success: protocol theme registered
+2016-11-12T09:33:33.337Z - success: protocol unpack registerred
+2016-11-12T09:33:33.483Z - normal: connected!
+2016-11-12T09:33:33.496Z - normal: Check project E:\Cocos\gametest
+2016-11-12T09:33:33.520Z - normal: Initializing Cocos Creator Editor
+2016-11-12T09:33:34.552Z - normal: Initializing Cocos2d
+2016-11-12T09:33:34.823Z - normal: Initializing Asset Database
+2016-11-12T09:33:34.848Z - normal: Loading editor/builtin packages
+2016-11-12T09:33:34.870Z - success: protocol uuid registerred
+2016-11-12T09:33:34.874Z - success: protocol db registerred
+2016-11-12T09:33:35.016Z - success: protocol thumbnail registerred
+2016-11-12T09:33:35.023Z - success: assets loaded
+2016-11-12T09:33:35.026Z - success: builder loaded
+2016-11-12T09:33:35.032Z - success: hierarchy loaded
+2016-11-12T09:33:35.037Z - success: inspector loaded
+2016-11-12T09:33:35.038Z - success: keystore loaded
+2016-11-12T09:33:35.043Z - success: node-library loaded
+2016-11-12T09:33:35.046Z - success: preferences loaded
+2016-11-12T09:33:35.062Z - success: project-importer loaded
+2016-11-12T09:33:35.071Z - success: project-settings loaded
+2016-11-12T09:33:35.075Z - success: ui-kit loaded
+2016-11-12T09:33:35.077Z - success: ui-grid loaded
+2016-11-12T09:33:35.081Z - success: scene loaded
+2016-11-12T09:33:35.083Z - success: sprite-editor loaded
+2016-11-12T09:33:35.087Z - success: timeline loaded
+2016-11-12T09:33:35.088Z - normal: Loading builtin packages
+2016-11-12T09:33:35.092Z - success: asset-db-debugger loaded
+2016-11-12T09:33:35.094Z - success: code-editor loaded
+2016-11-12T09:33:35.095Z - success: color-picker loaded
+2016-11-12T09:33:35.098Z - success: console loaded
+2016-11-12T09:33:35.100Z - success: package-manager loaded
+2016-11-12T09:33:35.104Z - success: tester loaded
+2016-11-12T09:33:35.110Z - success: ui-kit-preview-extra loaded
+2016-11-12T09:33:35.115Z - success: ui-kit-preview loaded
+2016-11-12T09:33:35.117Z - success: ui-tree loaded
+2016-11-12T09:33:35.239Z - normal: Initializing project E:\Cocos\gametest
+2016-11-12T09:33:35.243Z - normal: Loading packages
+2016-11-12T09:33:35.269Z - normal: Watching packages
+2016-11-12T09:33:35.297Z - normal: Run Application
+2016-11-12T09:33:36.347Z - success: preview server running at http://localhost:7456
+2016-11-12T09:33:43.926Z - normal: 1.3.1
+2016-11-12T09:36:48.233Z - normal: Compiled successfully
+2016-11-12T09:36:54.832Z - normal: Compiled successfully
+2016-11-12T09:37:03.614Z - normal: Compiled successfully
+2016-11-12T09:38:23.464Z - normal: Compiled successfully
+2016-11-12T09:38:42.276Z - normal: Compiled successfully
+2016-11-12T09:38:59.787Z - normal: Compiled successfully
+2016-11-12T09:48:20.183Z - normal: Compiled successfully
