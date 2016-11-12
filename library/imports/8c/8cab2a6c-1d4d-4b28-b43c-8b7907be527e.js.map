@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAElB,cAAU,EAAE;;AAEX,kBAAU,EAAE,CAAC;;AAEb,oBAAY,EAAE,CAAC;;AAEf,oBAAY,EAAE,CAAC;;AAEf,aAAK,EAAE,CAAC;KACX;;;AAGA,UAAM,EAAE,kBAAY;;AAEjB,YAAI,CAAC,UAAU,GAAG,IAAI,CAAC,aAAa,EAAE,CAAC;AACvC,YAAI,CAAC,IAAI,CAAC,SAAS,CAAC,IAAI,CAAC,UAAU,CAAC,CAAC;KACxC;;AAED,iBAAa,EAAE,yBAAY;;AAEvB,YAAI,MAAM,GAAG,EAAE,CAAC,MAAM,CAAC,IAAI,CAAC,YAAY,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,IAAI,CAAC,UAAU,CAAC,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,kBAAkB,EAAE,CAAC,CAAC;;AAEpG,YAAI,QAAQ,GAAG,EAAE,CAAC,MAAM,CAAC,IAAI,CAAC,YAAY,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,IAAI,CAAC,UAAU,CAAC,CAAC,CAAC,MAAM,CAAC,EAAE,CAAC,iBAAiB,EAAE,CAAC,CAAC;;AAEtG,eAAO,EAAE,CAAC,aAAa,CAAC,EAAE,CAAC,QAAQ,CAAC,MAAM,EAAE,QAAQ,CAAC,CAAC,CAAC;KAC1D;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\r\n    extends: cc.Component,\r\n\r\n       properties: {\r\n        // 主角跳跃高度\r\n        jumpHeight: 0,\r\n        // 主角跳跃持续时间\r\n        jumpDuration: 0,\r\n        // 最大移动速度\r\n        maxMoveSpeed: 0,\r\n        // 加速度\r\n        accel: 0,\r\n    },\r\n\r\n    // use this for initialization\r\n     onLoad: function () {\r\n        // 初始化跳跃动作\r\n        this.jumpAction = this.setJumpAction();\r\n        this.node.runAction(this.jumpAction);\r\n    },\r\n\r\n    setJumpAction: function () {\r\n        // 跳跃上升\r\n        var jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());\r\n        // 下落\r\n        var jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());\r\n        // 不断重复\r\n        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));\r\n    },\r\n});\r\n"
+  ]
+}
